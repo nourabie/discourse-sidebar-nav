@@ -6,7 +6,7 @@
   body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) { 
     
     #main-outlet {
-      padding-top: 6.8572em;
+      padding-top: 2.8572em;
     }
     
     // Structuring the main grid layout 
@@ -64,7 +64,7 @@
     }
     
     .list-container { 
-      min-width: 76%; // Don't let the topic list get too narrow
+      min-width: 70%; // Don't let the topic list get too narrow
       .topic-list,
       .category-list, { 
         th {
