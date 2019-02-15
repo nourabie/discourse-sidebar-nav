@@ -244,3 +244,12 @@
   }
 }
 
+@media screen and (min-width: 1110px) {
+  .navigation-topics,
+  .categories-list,
+  .tags-page,
+  body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) { 
+    .wrap {
+        max-width: 1400px;
+    }
+}
