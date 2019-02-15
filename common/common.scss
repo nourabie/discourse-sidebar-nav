@@ -64,7 +64,7 @@
     }
     
     .list-container { 
-      min-width: 70%; // Don't let the topic list get too narrow
+      min-width: 10%; // Don't let the topic list get too narrow
       .topic-list,
       .category-list, { 
         th {
@@ -242,14 +242,4 @@
       }
     }
   }
-}
-
-@media screen and (min-width: 1110px) {
-  .navigation-topics,
-  .categories-list,
-  .tags-page,
-  body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) { 
-    .wrap {
-        max-width: 1400px;
-    }
 }
